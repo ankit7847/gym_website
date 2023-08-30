@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ankit gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&family=Raleway:wght@200&display=swap" rel="stylesheet">
+<style>
+    /* css reset  */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        height: 1000px;
+        color: white;
+
+
+        
+  
+
+        
+    } 
+    .left{
+/* border: 2px solid red;   */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .left img{
+        width: 70px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: left;
+        line-height: 25px;
+        font-size: 22px;
+    }
+    .mid{
+/* border: 2px solid rgb(77, 5, 100); */
+display: block;
+width: 45%;
+margin: 20px auto;
+top: 20 px;
+
+    }   
+    .right{
+/* border: 2px solid rgb(23, 143, 113);         */
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    .btn{
+        margin: 0px 10px;
+        padding: 0px 10px;
+        background-color: black;
+        color: aliceblue;
+        border: 5px solid rgb(24, 23, 23);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        
+
+        
+    }
+    .btn:hover{
+        background-color: rgb(153, 181, 182);
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none ;
+        padding: 30px 20px;
+    }
+    .navbar li a:hover ,.navbar li a.active{
+        text-decoration: underline;
+        color: rgb(216, 210, 127);
+
+    }
+    .container{
+        border: 1px solid white;
+    margin: 180px 11px;
+    padding: 31px;
+    width: 35%;
+    border-radius: 25px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 30px;
+        margin: 10px auto;
+        padding: 7px;
+        width: 300px;
+        border: 2px solid red;
+        border-radius: 15px;
+        font-size: 15px;
+        
+    }
+    .container button{
+        display: block;
+        width: 15%;
+        margin: auto;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+           
+            <img src="img/logo.jpg" alt="">
+            <div>
+                Ankit Fitness
+            </div>
+
+            
+        </div>
+        <!-- mid box for nav  -->
+        <div class="mid">
+         <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+         <button class="btn"> Contact us
+
+         </button>
+         <button class="btn"> Email us
+
+         </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of champua now</h1>
+        <form action="nonaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile Number">
+            </div>
+            <button class="btn">Sumit</buttom>
+        </form>
+    </div>
+</body>
+</html>
